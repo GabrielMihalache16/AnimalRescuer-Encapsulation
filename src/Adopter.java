@@ -10,6 +10,14 @@ public class Adopter {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public double getAvailableMoney() {
+        return availableMoney;
+    }
+
     public void setAvailableMoney(double availableMoney) {
         this.availableMoney = availableMoney;
     }

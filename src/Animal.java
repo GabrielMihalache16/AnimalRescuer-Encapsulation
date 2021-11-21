@@ -39,4 +39,32 @@ public class Animal {
     public void setFavouriteRecreationActivity(String favouriteRecreationActivity) {
         this.favouriteRecreationActivity = favouriteRecreationActivity;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public byte getAge() {
+        return age;
+    }
+
+    public byte getHealthLevel() {
+        return healthLevel;
+    }
+
+    public byte getHungerLevel() {
+        return hungerLevel;
+    }
+
+    public byte getSpiritLevel() {
+        return spiritLevel;
+    }
+
+    public String getFavouriteFood() {
+        return favouriteFood;
+    }
+
+    public String getFavouriteRecreationActivity() {
+        return favouriteRecreationActivity;
+    }
 }

@@ -23,4 +23,20 @@ public class AnimalFood {
     public void setAvailable(boolean available) {
         isAvailable = available;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public boolean isAvailable() {
+        return isAvailable;
+    }
 }

@@ -12,5 +12,13 @@ public class Veterinarian {
     public void setSpecialization(String specialization) {
         this.specialization = specialization;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSpecialization() {
+        return specialization;
+    }
 }
 
