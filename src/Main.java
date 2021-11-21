@@ -8,6 +8,7 @@ public class Main {
         dog1.setHungerLevel((byte)6);
         dog1.getHungerLevel();
         dog1.setSpiritLevel((byte)10);
+        dog1.getSpiritLevel();
         dog1.setFavouriteFood("pate");
         dog1.getFavouriteFood();
         dog1.setFavouriteRecreationActivity("plimbare");
